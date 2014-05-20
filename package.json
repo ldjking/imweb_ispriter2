@@ -6,7 +6,7 @@
   },
   "name": "imweb_ispriter2",
   "description": "an intelligent merge sprite tool",
-  "version": "0.3.85",
+  "version": "0.3.86",
   "homepage": "http://imatlas.com/posts/ispriter-update/",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "devDependencies": [
   ],
-  "_id": "ispriter@0.3.85",
+  "_id": "ispriter@0.3.86",
   "_from": "ispriter@",
   "dependencies": {
     "MD5": "^1.2.1",

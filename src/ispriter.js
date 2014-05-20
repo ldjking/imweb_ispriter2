@@ -1,4 +1,4 @@
-module.exports=function(config, done){
+module.exports=function(conf,done){
 	var fs = require('fs'),
     path = require('path'),
     EventProxy = require('eventproxy'),
@@ -1388,6 +1388,7 @@ function onSpriteEnd(){
  * @param {Function} done 当精灵图合并完成后触发
  */
 function merge(config, done){
+	//console.log("merge");
     onSpriteStart();
 
     spriteCache = {};
@@ -1399,7 +1400,8 @@ function merge(config, done){
 
     // 1. 读取和处理合图配置
     spriteConfig = readConfig(config);
-
+	
+	
     // 2. 读取文件内容并解析, 读取相关图片的信息
     zTool.forEach(spriteConfig.input.cssSource, function(cssFileName, i, next){ // onEach
 
@@ -1427,15 +1429,16 @@ function merge(config, done){
             readImagesInfo(styleObjList, next);
         }
     }, function(){ // onDone
-
+		//console.log("on Done");
         // 3. 对小图片进行定位排列和输出, 输出合并后的 css 文件
         
         if(spriteConfig.output.combine){
 
             // 如果指定了 combine, 先把所有 cssRules 和 styleSheet 合并
-            spriteTaskArray =  (spriteTaskArray);
+            spriteTaskArray = combineSpriteTasks(spriteTaskArray);
         }
-
+		//console.log("spriteArray:");
+		//console.log(spriteTaskArray);
         var ep = new EventProxy();
 
         ep.after('drawImage', spriteTaskArray.length, function(){
@@ -1469,7 +1472,6 @@ function merge(config, done){
 
 }
 
-merge(options, done);
-
+merge(conf, done);
 
 }

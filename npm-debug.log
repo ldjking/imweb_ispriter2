@@ -22,24 +22,24 @@
 8 verbose parsed url   href: '.' }
 9 silly lockFile 3a52ce78- .
 10 verbose lock . C:\Users\millerliu\AppData\Roaming\npm-cache\3a52ce78-.lock
-11 verbose tar pack [ 'C:\\Users\\MILLER~1\\AppData\\Local\\Temp\\npm-5020-aJWkca43\\1400580704344-0.3388868970796466\\tmp.tgz',
+11 verbose tar pack [ 'C:\\Users\\MILLER~1\\AppData\\Local\\Temp\\npm-2360-t2ksRoGl\\1400592548927-0.13266935129649937\\tmp.tgz',
 11 verbose tar pack   '.' ]
-12 verbose tarball C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+12 verbose tarball C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
 13 verbose folder .
-14 info prepublish imweb_ispriter2@0.3.85
+14 info prepublish imweb_ispriter2@0.3.86
 15 silly lockFile 1f1177db-tar tar://.
 16 verbose lock tar://. C:\Users\millerliu\AppData\Roaming\npm-cache\1f1177db-tar.lock
-17 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-18 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\c1eb3f9a-04344-0-3388868970796466-tmp-tgz.lock
+17 silly lockFile 95feafb4-8927-0-13266935129649937-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+18 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\95feafb4-8927-0-13266935129649937-tmp-tgz.lock
 19 silly lockFile 1f1177db-tar tar://.
 20 silly lockFile 1f1177db-tar tar://.
-21 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-22 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-23 verbose tar unpack C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-24 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-25 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package C:\Users\millerliu\AppData\Roaming\npm-cache\3ba79c9a-04344-0-3388868970796466-package.lock
-26 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-27 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\c1eb3f9a-04344-0-3388868970796466-tmp-tgz.lock
+21 silly lockFile 95feafb4-8927-0-13266935129649937-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+22 silly lockFile 95feafb4-8927-0-13266935129649937-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+23 verbose tar unpack C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+24 silly lockFile a2723d05-8927-0-13266935129649937-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+25 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package C:\Users\millerliu\AppData\Roaming\npm-cache\a2723d05-8927-0-13266935129649937-package.lock
+26 silly lockFile 95feafb4-8927-0-13266935129649937-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+27 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\95feafb4-8927-0-13266935129649937-tmp-tgz.lock
 28 silly gunzTarPerm modes [ '755', '644' ]
 29 silly gunzTarPerm extractEntry package.json
 30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
@@ -275,31 +275,31 @@
 244 silly gunzTarPerm modified mode [ 'examples/single/config.json', 438, 420 ]
 245 silly gunzTarPerm extractEntry examples/single/style.html
 246 silly gunzTarPerm modified mode [ 'examples/single/style.html', 438, 420 ]
-247 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-248 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-249 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-250 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
-251 verbose tar pack [ 'C:\\Users\\millerliu\\AppData\\Roaming\\npm-cache\\imweb_ispriter2\\0.3.85\\package.tgz',
-251 verbose tar pack   'C:\\Users\\MILLER~1\\AppData\\Local\\Temp\\npm-5020-aJWkca43\\1400580704344-0.3388868970796466\\package' ]
-252 verbose tarball C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-253 verbose folder C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-254 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-255 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package C:\Users\millerliu\AppData\Roaming\npm-cache\3ba79c9a-04344-0-3388868970796466-package.lock
-256 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-257 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\76b10d12-web-ispriter2-0-3-85-package-tgz.lock
-258 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-259 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
-260 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-261 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-262 silly lockFile a7221dae-e-imweb-ispriter2-0-3-85-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
-263 verbose lock C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package C:\Users\millerliu\AppData\Roaming\npm-cache\a7221dae-e-imweb-ispriter2-0-3-85-package.lock
-264 silly lockFile a7221dae-e-imweb-ispriter2-0-3-85-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
-265 silly lockFile a7221dae-e-imweb-ispriter2-0-3-85-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
-266 verbose tar unpack C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-267 silly lockFile 21069c7b-e-imweb-ispriter2-0-3-85-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
-268 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package C:\Users\millerliu\AppData\Roaming\npm-cache\21069c7b-e-imweb-ispriter2-0-3-85-package.lock
-269 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-270 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\76b10d12-web-ispriter2-0-3-85-package-tgz.lock
+247 silly lockFile a2723d05-8927-0-13266935129649937-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+248 silly lockFile a2723d05-8927-0-13266935129649937-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+249 silly lockFile 95feafb4-8927-0-13266935129649937-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+250 silly lockFile 95feafb4-8927-0-13266935129649937-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\tmp.tgz
+251 verbose tar pack [ 'C:\\Users\\millerliu\\AppData\\Roaming\\npm-cache\\imweb_ispriter2\\0.3.86\\package.tgz',
+251 verbose tar pack   'C:\\Users\\MILLER~1\\AppData\\Local\\Temp\\npm-2360-t2ksRoGl\\1400592548927-0.13266935129649937\\package' ]
+252 verbose tarball C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+253 verbose folder C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+254 silly lockFile a2723d05-8927-0-13266935129649937-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+255 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package C:\Users\millerliu\AppData\Roaming\npm-cache\a2723d05-8927-0-13266935129649937-package.lock
+256 silly lockFile 3e15c5e8-web-ispriter2-0-3-86-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+257 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\3e15c5e8-web-ispriter2-0-3-86-package-tgz.lock
+258 silly lockFile a2723d05-8927-0-13266935129649937-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+259 silly lockFile a2723d05-8927-0-13266935129649937-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-2360-t2ksRoGl\1400592548927-0.13266935129649937\package
+260 silly lockFile 3e15c5e8-web-ispriter2-0-3-86-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+261 silly lockFile 3e15c5e8-web-ispriter2-0-3-86-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+262 silly lockFile b0a9d602-e-imweb-ispriter2-0-3-86-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package
+263 verbose lock C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package C:\Users\millerliu\AppData\Roaming\npm-cache\b0a9d602-e-imweb-ispriter2-0-3-86-package.lock
+264 silly lockFile b0a9d602-e-imweb-ispriter2-0-3-86-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package
+265 silly lockFile b0a9d602-e-imweb-ispriter2-0-3-86-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package
+266 verbose tar unpack C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+267 silly lockFile 556d4f34-e-imweb-ispriter2-0-3-86-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package
+268 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package C:\Users\millerliu\AppData\Roaming\npm-cache\556d4f34-e-imweb-ispriter2-0-3-86-package.lock
+269 silly lockFile 3e15c5e8-web-ispriter2-0-3-86-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+270 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\3e15c5e8-web-ispriter2-0-3-86-package-tgz.lock
 271 silly gunzTarPerm modes [ '755', '644' ]
 272 silly gunzTarPerm extractEntry package.json
 273 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
@@ -535,12 +535,12 @@
 487 silly gunzTarPerm modified mode [ 'test/style2.html', 438, 420 ]
 488 silly gunzTarPerm extractEntry test/style3.html
 489 silly gunzTarPerm modified mode [ 'test/style3.html', 438, 420 ]
-490 silly lockFile 21069c7b-e-imweb-ispriter2-0-3-85-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
-491 silly lockFile 21069c7b-e-imweb-ispriter2-0-3-85-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
-492 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-493 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
-494 verbose chmod C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz 644
-495 silly chown skipping for windows C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+490 silly lockFile 556d4f34-e-imweb-ispriter2-0-3-86-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package
+491 silly lockFile 556d4f34-e-imweb-ispriter2-0-3-86-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package
+492 silly lockFile 3e15c5e8-web-ispriter2-0-3-86-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+493 silly lockFile 3e15c5e8-web-ispriter2-0-3-86-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
+494 verbose chmod C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz 644
+495 silly chown skipping for windows C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.86\package.tgz
 496 silly lockFile 3a52ce78- .
 497 silly lockFile 3a52ce78- .
 498 silly publish { author:
@@ -549,7 +549,7 @@
 498 silly publish      url: 'http://imatlas.com/about' },
 498 silly publish   name: 'imweb_ispriter2',
 498 silly publish   description: 'an intelligent merge sprite tool',
-498 silly publish   version: '0.3.85',
+498 silly publish   version: '0.3.86',
 498 silly publish   homepage: 'http://imatlas.com/posts/ispriter-update/',
 498 silly publish   repository: { type: 'git', url: 'git://github.com/iazrael/ispriter.git' },
 498 silly publish   main: './src/ispriter.js',
@@ -557,7 +557,7 @@
 498 silly publish   readmeFilename: 'README.md',
 498 silly publish   bugs: { url: 'https://github.com/iazrael/ispriter/issues' },
 498 silly publish   devDependencies: {},
-498 silly publish   _id: 'imweb_ispriter2@0.3.85',
+498 silly publish   _id: 'imweb_ispriter2@0.3.86',
 498 silly publish   _from: '.',
 498 silly publish   dependencies:
 498 silly publish    { MD5: '^1.2.1',
@@ -567,17 +567,17 @@
 498 silly publish      underscore: '^1.6.0',
 498 silly publish      commander: '^2.2.0',
 498 silly publish      'clean-css': '^2.1.8' },
-498 silly publish   dist: { shasum: '44055bbeb6afdb4fa3410b426cb753073528b746' } }
+498 silly publish   dist: { shasum: 'e132d5f89660be75ecb3753c6bedd24d5a61bb4f' } }
 499 verbose url raw imweb_ispriter2
 500 verbose url resolving [ 'http://npm.oa.com/', './imweb_ispriter2' ]
 501 verbose url resolved http://npm.oa.com/imweb_ispriter2
-502 info trying registry request attempt 1 at 18:11:45
+502 info trying registry request attempt 1 at 21:29:10
 503 http PUT http://npm.oa.com/imweb_ispriter2
 504 http 403 http://npm.oa.com/imweb_ispriter2
 505 error publish Failed PUT 403
-506 error Error: forbidden cannot modify pre-existing version: 0.3.85
-506 error old={"author":{"name":"azrael millerliu 增加图片 md5能力","email":"azrael@imatlas.com","url":"http://imatlas.com/about"},"name":"imweb_ispriter2","description":"an intelligent merge sprite tool","version":"0.3.85","homepage":"http://imatlas.com/posts/ispriter-update/","repository":{"type":"git","url":"git://github.com/iazrael/ispriter.git"},"main":"./src/ispriter.js","bugs":{"url":"https://github.com/iazrael/ispriter/issues"},"devDependencies":{},"_id":"imweb_ispriter2@0.3.85","_from":".","dependencies":{"MD5":"^1.2.1","cssom":"^0.3.0","pngjs":"^0.4.0","eventproxy":"^0.3.1","underscore":"^1.6.0","commander":"^2.2.0","clean-css":"^2.1.8"},"dist":{"shasum":"1854f768074d0d9e2b4828cb2f7940c82468f9fe","tarball":"http://npm.oa.com/imweb_ispriter2/-/imweb_ispriter2-0.3.85.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"millerliu","email":"ldjbox@126.com"},"maintainers":[{"name":"millerliu","email":"ldjbox@126.com"}]}
-506 error new={"author":{"name":"azrael millerliu 增加图片 md5能力","email":"azrael@imatlas.com","url":"http://imatlas.com/about"},"name":"imweb_ispriter2","description":"an intelligent merge sprite tool","version":"0.3.85","homepage":"http://imatlas.com/posts/ispriter-update/","repository":{"type":"git","url":"git://github.com/iazrael/ispriter.git"},"main":"./src/ispriter.js","readme":"#智能合并CSS精灵图(iSpriter)\u000a\u000a什么是智能?\u000a=========\u000a\u000a编写 css 文件时什么都不用管, 该用什么图片用什么图片, 该怎么定位就怎么定位, 不用改变原有的 css 编写方式\u000a\u000a发布前执行 ispriter, 所有合并图片和定位都自动帮你完成\u000a\u000a站在巨人的肩膀上\u000a================\u000a\u000a使用nodejs实现, 依赖[CSSOM](https://github.com/NV/CSSOM), [node-pngjs](https://github.com/niegowski/node-pngjs)\u000a\u000a使用 [bin-packing](https://github.com/jakesgordon/bin-packing) 算法排列图片, 后续支持选择其他算法\u000a\u000a在此, 感谢这些开源项目的作者, 以及给本项目贡献代码的同学\u000a\u000a\u000a特性\u000a====\u000a\u000a+ 智能提取 background 的 url 和 position 等信息\u000a+ 智能设置被合并图片的宽高\u000a+ 智能判断使用了 background-position（使用px为单位）定位的图片并重新定位\u000a+ 支持已经合并了的精灵图再次合并和定位\u000a+ 支持图片去重\u000a+ 支持限制合并后图片的大小\u000a+ 支持设置合并后的图片间距\u000a+ 支持将所有图片合并为一张, 同时所有 CSS 文件合并为一个文件 【新】\u000a+ 支持读取 @import 的样式表进行处理 【新】\u000a+ 支持将所有合并了图片的 CSS 统一输出, 减少代码量 【新】\u000a+ 支持对输出的 CSS 进行压缩(使用 clean-css)【新】\u000a+ 支持排除不需要合并的图片（在 url 后面添加 #unsprite 或者使用 config 文件来配置）【新】\u000a+ 跳过 background-position 是 right/center/bottom 的图片\u000a+ 跳过显式的设置平铺方式为 repreat 的图片\u000a+ 跳过设置了 background-size 的图片\u000a\u000a使用方法\u000a=======\u000a\u000aconfig 的详细参数说明见[CONFIG](./CONFIG.md)\u000a\u000a### config 文件的配置参数\u000a\u000a    {\u000a\u000a        \"input\": {\u000a\u000a            /**\u000a             * 原 cssRoot\u000a             */\u000a            \"cssSource\": [\"./css/style*.css\"]\u000a        },\u000a        \"output\": {\u000a\u000a            /**\u000a             * 原 cssRoot\u000a             */\u000a            \"cssDist\": \"./sprite/css/\",\u000a\u000a            /**\u000a             * 原 imageRoot\u000a             */\u000a            \"imageDist\": \"./img/\",\u000a\u000a            /**\u000a             * 原 maxSize\u000a             */\u000a            \"maxSingleSize\": 60,\u000a            \u000a            \"margin\": 3\u000a        }\u000a    }\u000a\u000a### config 的最简配置\u000a\u000a    {\u000a        \"input\":  \"./../test/css/\", // input cssSource\u000a        \"output\": \"./../test/sprite_output/css/\" // output cssDist\u000a    }\u000a\u000a### 从代码中调用\u000a\u000a    var spriter = require('ispriter');\u000a\u000a    spriter.merge('../src/config.example.json');\u000a\u000a    or \u000a\u000a    spriter.merge(['./css/style.css', './css/style2.css']);\u000a\u000a    or\u000a\u000a    spriter.merge({\u000a        \"input\":  \"./../test/css/\",\u000a        \"output\": \"./../test/sprite_output/css/\"\u000a    });\u000a\u000a### 从命令行调用\u000a    \u000a    npm install ispriter -g\u000a\u000a    cd ./test\u000a\u000a    ispriter -c config.example.json\u000a    \u000a    or\u000a\u000a    ispriter -f style.css, style2.css ...\u000a\u000a### 从 [Mod](https://github.com/modulejs/modjs) 中调用\u000a\u000a    // Modfile\u000a    module.exports = {\u000a        plugins: {\u000a            sprite: \"ispriter\"\u000a        },\u000a        tasks: {\u000a            sprite: {\u000a                page1: {\u000a                    \"input\":  \"./../test/css/\", // input cssSource\u000a                    \"output\": \"./../test/sprite_output/css/\" // output cssDist\u000a                },\u000a                page2: {\u000a                    // 涉及对象类型参数需配置在options中\u000a                    options: {\u000a\u000a                        \"input\": {\u000a                            \"cssSource\": [\"./css/style*.css\"]\u000a                        },\u000a                        \"output\": {\u000a                            \"cssDist\": \"./sprite/css/\",\u000a                            \"imageDist\": \"./img/\",\u000a                            \"maxSingleSize\": 60,\u000a                            \"margin\": 5\u000a                        }\u000a                    }\u000a                }\u000a            }\u000a        }\u000a    }\u000a\u000a### 排除不需要合并的图片\u000a只要在写样式的时候, 在 background-image 的图片url加上 #unsprite 即可, 例如:\u000a    \u000a    background: url(../images/loading.png#unsprite);\u000a\u000a    background: url(../images/loading.png?t=123#unsprite);\u000a\u000a    background: url(../images/loading.png#hash#unsprite);\u000a\u000a也可以在 config 中指定 ignoreImages 来实现, 所有匹配上的图片都不会合并, 可以使用通配符, 例如: \u000a\u000a    \"ignoreImages\": \"icons/*\"\u000a    \u000a    \"ignoreImages\": [\"icons/*\", \"loading.png\"]\u000a\u000aExample\u000a=======\u000a\u000a具体实例请查看 examples 目录下的 demo, 进入具体目录, 执行\u000a\u000a    ispriter -c config.json \u000a体验实际效果\u000a\u000aLicense\u000a=======\u000a\u000a[MIT](./LICENSE)\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/iazrael/ispriter/issues"},"devDependencies":{},"_id":"imweb_ispriter2@0.3.85","_from":".","dependencies":{"MD5":"^1.2.1","cssom":"^0.3.0","pngjs":"^0.4.0","eventproxy":"^0.3.1","underscore":"^1.6.0","commander":"^2.2.0","clean-css":"^2.1.8"},"dist":{"shasum":"44055bbeb6afdb4fa3410b426cb753073528b746","tarball":"http://npm.oa.com/imweb_ispriter2/-/imweb_ispriter2-0.3.85.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"millerliu","email":"ldjbox@126.com"},"maintainers":[{"name":"millerliu","email":"ldjbox@126.com"}]}: imweb_ispriter2
+506 error Error: forbidden cannot modify pre-existing version: 0.3.86
+506 error old={"author":{"name":"azrael millerliu 增加图片 md5能力","email":"azrael@imatlas.com","url":"http://imatlas.com/about"},"name":"imweb_ispriter2","description":"an intelligent merge sprite tool","version":"0.3.86","homepage":"http://imatlas.com/posts/ispriter-update/","repository":{"type":"git","url":"git://github.com/iazrael/ispriter.git"},"main":"./src/ispriter.js","bugs":{"url":"https://github.com/iazrael/ispriter/issues"},"devDependencies":{},"_id":"imweb_ispriter2@0.3.86","_from":".","dependencies":{"MD5":"^1.2.1","cssom":"^0.3.0","pngjs":"^0.4.0","eventproxy":"^0.3.1","underscore":"^1.6.0","commander":"^2.2.0","clean-css":"^2.1.8"},"dist":{"shasum":"919f07245939b9fa123ccc2ab402c2061a7e86af","tarball":"http://npm.oa.com/imweb_ispriter2/-/imweb_ispriter2-0.3.86.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"millerliu","email":"ldjbox@126.com"},"maintainers":[{"name":"millerliu","email":"ldjbox@126.com"}]}
+506 error new={"author":{"name":"azrael millerliu 增加图片 md5能力","email":"azrael@imatlas.com","url":"http://imatlas.com/about"},"name":"imweb_ispriter2","description":"an intelligent merge sprite tool","version":"0.3.86","homepage":"http://imatlas.com/posts/ispriter-update/","repository":{"type":"git","url":"git://github.com/iazrael/ispriter.git"},"main":"./src/ispriter.js","readme":"#智能合并CSS精灵图(iSpriter)\u000a\u000a什么是智能?\u000a=========\u000a\u000a编写 css 文件时什么都不用管, 该用什么图片用什么图片, 该怎么定位就怎么定位, 不用改变原有的 css 编写方式\u000a\u000a发布前执行 ispriter, 所有合并图片和定位都自动帮你完成\u000a\u000a站在巨人的肩膀上\u000a================\u000a\u000a使用nodejs实现, 依赖[CSSOM](https://github.com/NV/CSSOM), [node-pngjs](https://github.com/niegowski/node-pngjs)\u000a\u000a使用 [bin-packing](https://github.com/jakesgordon/bin-packing) 算法排列图片, 后续支持选择其他算法\u000a\u000a在此, 感谢这些开源项目的作者, 以及给本项目贡献代码的同学\u000a\u000a\u000a特性\u000a====\u000a\u000a+ 智能提取 background 的 url 和 position 等信息\u000a+ 智能设置被合并图片的宽高\u000a+ 智能判断使用了 background-position（使用px为单位）定位的图片并重新定位\u000a+ 支持已经合并了的精灵图再次合并和定位\u000a+ 支持图片去重\u000a+ 支持限制合并后图片的大小\u000a+ 支持设置合并后的图片间距\u000a+ 支持将所有图片合并为一张, 同时所有 CSS 文件合并为一个文件 【新】\u000a+ 支持读取 @import 的样式表进行处理 【新】\u000a+ 支持将所有合并了图片的 CSS 统一输出, 减少代码量 【新】\u000a+ 支持对输出的 CSS 进行压缩(使用 clean-css)【新】\u000a+ 支持排除不需要合并的图片（在 url 后面添加 #unsprite 或者使用 config 文件来配置）【新】\u000a+ 跳过 background-position 是 right/center/bottom 的图片\u000a+ 跳过显式的设置平铺方式为 repreat 的图片\u000a+ 跳过设置了 background-size 的图片\u000a\u000a使用方法\u000a=======\u000a\u000aconfig 的详细参数说明见[CONFIG](./CONFIG.md)\u000a\u000a### config 文件的配置参数\u000a\u000a    {\u000a\u000a        \"input\": {\u000a\u000a            /**\u000a             * 原 cssRoot\u000a             */\u000a            \"cssSource\": [\"./css/style*.css\"]\u000a        },\u000a        \"output\": {\u000a\u000a            /**\u000a             * 原 cssRoot\u000a             */\u000a            \"cssDist\": \"./sprite/css/\",\u000a\u000a            /**\u000a             * 原 imageRoot\u000a             */\u000a            \"imageDist\": \"./img/\",\u000a\u000a            /**\u000a             * 原 maxSize\u000a             */\u000a            \"maxSingleSize\": 60,\u000a            \u000a            \"margin\": 3\u000a        }\u000a    }\u000a\u000a### config 的最简配置\u000a\u000a    {\u000a        \"input\":  \"./../test/css/\", // input cssSource\u000a        \"output\": \"./../test/sprite_output/css/\" // output cssDist\u000a    }\u000a\u000a### 从代码中调用\u000a\u000a    var spriter = require('ispriter');\u000a\u000a    spriter.merge('../src/config.example.json');\u000a\u000a    or \u000a\u000a    spriter.merge(['./css/style.css', './css/style2.css']);\u000a\u000a    or\u000a\u000a    spriter.merge({\u000a        \"input\":  \"./../test/css/\",\u000a        \"output\": \"./../test/sprite_output/css/\"\u000a    });\u000a\u000a### 从命令行调用\u000a    \u000a    npm install ispriter -g\u000a\u000a    cd ./test\u000a\u000a    ispriter -c config.example.json\u000a    \u000a    or\u000a\u000a    ispriter -f style.css, style2.css ...\u000a\u000a### 从 [Mod](https://github.com/modulejs/modjs) 中调用\u000a\u000a    // Modfile\u000a    module.exports = {\u000a        plugins: {\u000a            sprite: \"ispriter\"\u000a        },\u000a        tasks: {\u000a            sprite: {\u000a                page1: {\u000a                    \"input\":  \"./../test/css/\", // input cssSource\u000a                    \"output\": \"./../test/sprite_output/css/\" // output cssDist\u000a                },\u000a                page2: {\u000a                    // 涉及对象类型参数需配置在options中\u000a                    options: {\u000a\u000a                        \"input\": {\u000a                            \"cssSource\": [\"./css/style*.css\"]\u000a                        },\u000a                        \"output\": {\u000a                            \"cssDist\": \"./sprite/css/\",\u000a                            \"imageDist\": \"./img/\",\u000a                            \"maxSingleSize\": 60,\u000a                            \"margin\": 5\u000a                        }\u000a                    }\u000a                }\u000a            }\u000a        }\u000a    }\u000a\u000a### 排除不需要合并的图片\u000a只要在写样式的时候, 在 background-image 的图片url加上 #unsprite 即可, 例如:\u000a    \u000a    background: url(../images/loading.png#unsprite);\u000a\u000a    background: url(../images/loading.png?t=123#unsprite);\u000a\u000a    background: url(../images/loading.png#hash#unsprite);\u000a\u000a也可以在 config 中指定 ignoreImages 来实现, 所有匹配上的图片都不会合并, 可以使用通配符, 例如: \u000a\u000a    \"ignoreImages\": \"icons/*\"\u000a    \u000a    \"ignoreImages\": [\"icons/*\", \"loading.png\"]\u000a\u000aExample\u000a=======\u000a\u000a具体实例请查看 examples 目录下的 demo, 进入具体目录, 执行\u000a\u000a    ispriter -c config.json \u000a体验实际效果\u000a\u000aLicense\u000a=======\u000a\u000a[MIT](./LICENSE)\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/iazrael/ispriter/issues"},"devDependencies":{},"_id":"imweb_ispriter2@0.3.86","_from":".","dependencies":{"MD5":"^1.2.1","cssom":"^0.3.0","pngjs":"^0.4.0","eventproxy":"^0.3.1","underscore":"^1.6.0","commander":"^2.2.0","clean-css":"^2.1.8"},"dist":{"shasum":"e132d5f89660be75ecb3753c6bedd24d5a61bb4f","tarball":"http://npm.oa.com/imweb_ispriter2/-/imweb_ispriter2-0.3.86.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"millerliu","email":"ldjbox@126.com"},"maintainers":[{"name":"millerliu","email":"ldjbox@126.com"}]}: imweb_ispriter2
 506 error     at RegClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:237:14)
 506 error     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
 506 error     at Request.EventEmitter.emit (events.js:98:17)
