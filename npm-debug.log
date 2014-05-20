@@ -1,0 +1,598 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink D:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\millerliu\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\MILLER~1\\AppData\\Local\\Temp\\npm-5020-aJWkca43\\1400580704344-0.3388868970796466\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+13 verbose folder .
+14 info prepublish imweb_ispriter2@0.3.85
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\millerliu\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+18 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\c1eb3f9a-04344-0-3388868970796466-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+22 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+23 verbose tar unpack C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+24 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+25 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package C:\Users\millerliu\AppData\Roaming\npm-cache\3ba79c9a-04344-0-3388868970796466-package.lock
+26 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+27 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\c1eb3f9a-04344-0-3388868970796466-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry LICENSE
+36 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+37 silly gunzTarPerm extractEntry test.js
+38 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry CONFIG.md
+40 silly gunzTarPerm modified mode [ 'CONFIG.md', 438, 420 ]
+41 silly gunzTarPerm extractEntry bin/ispriter
+42 silly gunzTarPerm modified mode [ 'bin/ispriter', 438, 420 ]
+43 silly gunzTarPerm extractEntry src/BackgroundInterpreter.js
+44 silly gunzTarPerm modified mode [ 'src/BackgroundInterpreter.js', 438, 420 ]
+45 silly gunzTarPerm extractEntry src/GrowingPacker.js
+46 silly gunzTarPerm modified mode [ 'src/GrowingPacker.js', 438, 420 ]
+47 silly gunzTarPerm extractEntry src/ispriter.js
+48 silly gunzTarPerm modified mode [ 'src/ispriter.js', 438, 420 ]
+49 silly gunzTarPerm extractEntry src/node-file.js
+50 silly gunzTarPerm modified mode [ 'src/node-file.js', 438, 420 ]
+51 silly gunzTarPerm extractEntry src/ztool.js
+52 silly gunzTarPerm modified mode [ 'src/ztool.js', 438, 420 ]
+53 silly gunzTarPerm extractEntry test/img/sprite/01ab253e6b8089278192b616796c5c3c.png
+54 silly gunzTarPerm modified mode [ 'test/img/sprite/01ab253e6b8089278192b616796c5c3c.png',
+54 silly gunzTarPerm   438,
+54 silly gunzTarPerm   420 ]
+55 silly gunzTarPerm extractEntry test/img/sprite/3449c9e5e332f1dbb81505cd739fbf3f.png
+56 silly gunzTarPerm modified mode [ 'test/img/sprite/3449c9e5e332f1dbb81505cd739fbf3f.png',
+56 silly gunzTarPerm   438,
+56 silly gunzTarPerm   420 ]
+57 silly gunzTarPerm extractEntry test/img/sprite/83ddf58b8c78ac8b5c8972c459c3e357.png
+58 silly gunzTarPerm modified mode [ 'test/img/sprite/83ddf58b8c78ac8b5c8972c459c3e357.png',
+58 silly gunzTarPerm   438,
+58 silly gunzTarPerm   420 ]
+59 silly gunzTarPerm extractEntry test/img/sprite/ca9c491ac66b2c62500882e93f3719a8.png
+60 silly gunzTarPerm modified mode [ 'test/img/sprite/ca9c491ac66b2c62500882e93f3719a8.png',
+60 silly gunzTarPerm   438,
+60 silly gunzTarPerm   420 ]
+61 silly gunzTarPerm extractEntry test/img/sprite/d41d8cd98f00b204e9800998ecf8427e.png
+62 silly gunzTarPerm modified mode [ 'test/img/sprite/d41d8cd98f00b204e9800998ecf8427e.png',
+62 silly gunzTarPerm   438,
+62 silly gunzTarPerm   420 ]
+63 silly gunzTarPerm extractEntry test/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png
+64 silly gunzTarPerm modified mode [ 'test/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png',
+64 silly gunzTarPerm   438,
+64 silly gunzTarPerm   420 ]
+65 silly gunzTarPerm extractEntry test/Modfile
+66 silly gunzTarPerm modified mode [ 'test/Modfile', 438, 420 ]
+67 silly gunzTarPerm extractEntry test/css/main.css
+68 silly gunzTarPerm modified mode [ 'test/css/main.css', 438, 420 ]
+69 silly gunzTarPerm extractEntry test/css/style.css
+70 silly gunzTarPerm modified mode [ 'test/css/style.css', 438, 420 ]
+71 silly gunzTarPerm extractEntry test/css/style2.css
+72 silly gunzTarPerm modified mode [ 'test/css/style2.css', 438, 420 ]
+73 silly gunzTarPerm extractEntry test/css/style3.css
+74 silly gunzTarPerm modified mode [ 'test/css/style3.css', 438, 420 ]
+75 silly gunzTarPerm extractEntry test/css/style4.css
+76 silly gunzTarPerm modified mode [ 'test/css/style4.css', 438, 420 ]
+77 silly gunzTarPerm extractEntry test/css/style_noimg.css
+78 silly gunzTarPerm modified mode [ 'test/css/style_noimg.css', 438, 420 ]
+79 silly gunzTarPerm extractEntry test/css2/f7b44cfafd5c52223d5498196c8a2e7b.png
+80 silly gunzTarPerm modified mode [ 'test/css2/f7b44cfafd5c52223d5498196c8a2e7b.png', 438, 420 ]
+81 silly gunzTarPerm extractEntry test/css2/img/f7b44cfafd5c52223d5498196c8a2e7b.png
+82 silly gunzTarPerm modified mode [ 'test/css2/img/f7b44cfafd5c52223d5498196c8a2e7b.png',
+82 silly gunzTarPerm   438,
+82 silly gunzTarPerm   420 ]
+83 silly gunzTarPerm extractEntry test/css2/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png
+84 silly gunzTarPerm modified mode [ 'test/css2/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png',
+84 silly gunzTarPerm   438,
+84 silly gunzTarPerm   420 ]
+85 silly gunzTarPerm extractEntry test/css2/imgf7b44cfafd5c52223d5498196c8a2e7b.png
+86 silly gunzTarPerm modified mode [ 'test/css2/imgf7b44cfafd5c52223d5498196c8a2e7b.png', 438, 420 ]
+87 silly gunzTarPerm extractEntry test/css2/main.css
+88 silly gunzTarPerm modified mode [ 'test/css2/main.css', 438, 420 ]
+89 silly gunzTarPerm extractEntry test/css2/style.css
+90 silly gunzTarPerm modified mode [ 'test/css2/style.css', 438, 420 ]
+91 silly gunzTarPerm extractEntry test/css2/style2.css
+92 silly gunzTarPerm modified mode [ 'test/css2/style2.css', 438, 420 ]
+93 silly gunzTarPerm extractEntry test/css2/style3.css
+94 silly gunzTarPerm modified mode [ 'test/css2/style3.css', 438, 420 ]
+95 silly gunzTarPerm extractEntry test/css2/style4.css
+96 silly gunzTarPerm modified mode [ 'test/css2/style4.css', 438, 420 ]
+97 silly gunzTarPerm extractEntry test/css2/style_noimg.css
+98 silly gunzTarPerm modified mode [ 'test/css2/style_noimg.css', 438, 420 ]
+99 silly gunzTarPerm extractEntry test/images/file_word.png
+100 silly gunzTarPerm modified mode [ 'test/images/file_word.png', 438, 420 ]
+101 silly gunzTarPerm extractEntry test/images/add.png
+102 silly gunzTarPerm modified mode [ 'test/images/add.png', 438, 420 ]
+103 silly gunzTarPerm extractEntry test/images/appmarket.png
+104 silly gunzTarPerm modified mode [ 'test/images/appmarket.png', 438, 420 ]
+105 silly gunzTarPerm extractEntry test/images/back_click.png
+106 silly gunzTarPerm modified mode [ 'test/images/back_click.png', 438, 420 ]
+107 silly gunzTarPerm extractEntry test/images/back_hover.png
+108 silly gunzTarPerm modified mode [ 'test/images/back_hover.png', 438, 420 ]
+109 silly gunzTarPerm extractEntry test/images/badge.png
+110 silly gunzTarPerm modified mode [ 'test/images/badge.png', 438, 420 ]
+111 silly gunzTarPerm extractEntry test/images/bright-star.png
+112 silly gunzTarPerm modified mode [ 'test/images/bright-star.png', 438, 420 ]
+113 silly gunzTarPerm extractEntry test/images/close.png
+114 silly gunzTarPerm modified mode [ 'test/images/close.png', 438, 420 ]
+115 silly gunzTarPerm extractEntry test/images/close2.png
+116 silly gunzTarPerm modified mode [ 'test/images/close2.png', 438, 420 ]
+117 silly gunzTarPerm extractEntry test/images/delete-down.png
+118 silly gunzTarPerm modified mode [ 'test/images/delete-down.png', 438, 420 ]
+119 silly gunzTarPerm extractEntry test/images/diskexplorer.png
+120 silly gunzTarPerm modified mode [ 'test/images/diskexplorer.png', 438, 420 ]
+121 silly gunzTarPerm extractEntry test/images/doc.png
+122 silly gunzTarPerm modified mode [ 'test/images/doc.png', 438, 420 ]
+123 silly gunzTarPerm extractEntry test/images/doc_o.png
+124 silly gunzTarPerm modified mode [ 'test/images/doc_o.png', 438, 420 ]
+125 silly gunzTarPerm extractEntry test/images/file_default.png
+126 silly gunzTarPerm modified mode [ 'test/images/file_default.png', 438, 420 ]
+127 silly gunzTarPerm extractEntry test/images/file_excel.png
+128 silly gunzTarPerm modified mode [ 'test/images/file_excel.png', 438, 420 ]
+129 silly gunzTarPerm extractEntry test/images/file_image.png
+130 silly gunzTarPerm modified mode [ 'test/images/file_image.png', 438, 420 ]
+131 silly gunzTarPerm extractEntry test/images/file_music.png
+132 silly gunzTarPerm modified mode [ 'test/images/file_music.png', 438, 420 ]
+133 silly gunzTarPerm extractEntry test/images/file_pdf.png
+134 silly gunzTarPerm modified mode [ 'test/images/file_pdf.png', 438, 420 ]
+135 silly gunzTarPerm extractEntry test/images/file_ppt.png
+136 silly gunzTarPerm modified mode [ 'test/images/file_ppt.png', 438, 420 ]
+137 silly gunzTarPerm extractEntry test/images/file_rar.png
+138 silly gunzTarPerm modified mode [ 'test/images/file_rar.png', 438, 420 ]
+139 silly gunzTarPerm extractEntry test/images/file_txt.png
+140 silly gunzTarPerm modified mode [ 'test/images/file_txt.png', 438, 420 ]
+141 silly gunzTarPerm extractEntry test/images/file_video.png
+142 silly gunzTarPerm modified mode [ 'test/images/file_video.png', 438, 420 ]
+143 silly gunzTarPerm extractEntry test/images/app_icon.png
+144 silly gunzTarPerm modified mode [ 'test/images/app_icon.png', 438, 420 ]
+145 silly gunzTarPerm extractEntry test/images/folder.png
+146 silly gunzTarPerm modified mode [ 'test/images/folder.png', 438, 420 ]
+147 silly gunzTarPerm extractEntry test/images/folder_o.png
+148 silly gunzTarPerm modified mode [ 'test/images/folder_o.png', 438, 420 ]
+149 silly gunzTarPerm extractEntry test/images/friends.png
+150 silly gunzTarPerm modified mode [ 'test/images/friends.png', 438, 420 ]
+151 silly gunzTarPerm extractEntry test/images/game.png
+152 silly gunzTarPerm modified mode [ 'test/images/game.png', 438, 420 ]
+153 silly gunzTarPerm extractEntry test/images/game_o.png
+154 silly gunzTarPerm modified mode [ 'test/images/game_o.png', 438, 420 ]
+155 silly gunzTarPerm extractEntry test/images/gray-star.png
+156 silly gunzTarPerm modified mode [ 'test/images/gray-star.png', 438, 420 ]
+157 silly gunzTarPerm extractEntry test/images/info.png
+158 silly gunzTarPerm modified mode [ 'test/images/info.png', 438, 420 ]
+159 silly gunzTarPerm extractEntry test/images/level_0.png
+160 silly gunzTarPerm modified mode [ 'test/images/level_0.png', 438, 420 ]
+161 silly gunzTarPerm extractEntry test/images/level_1.png
+162 silly gunzTarPerm modified mode [ 'test/images/level_1.png', 438, 420 ]
+163 silly gunzTarPerm extractEntry test/images/level_2.png
+164 silly gunzTarPerm modified mode [ 'test/images/level_2.png', 438, 420 ]
+165 silly gunzTarPerm extractEntry test/images/level_3.png
+166 silly gunzTarPerm modified mode [ 'test/images/level_3.png', 438, 420 ]
+167 silly gunzTarPerm extractEntry test/images/level_4.png
+168 silly gunzTarPerm modified mode [ 'test/images/level_4.png', 438, 420 ]
+169 silly gunzTarPerm extractEntry test/images/level_5.png
+170 silly gunzTarPerm modified mode [ 'test/images/level_5.png', 438, 420 ]
+171 silly gunzTarPerm extractEntry test/images/loading.png
+172 silly gunzTarPerm modified mode [ 'test/images/loading.png', 438, 420 ]
+173 silly gunzTarPerm extractEntry test/images/open.png
+174 silly gunzTarPerm modified mode [ 'test/images/open.png', 438, 420 ]
+175 silly gunzTarPerm extractEntry test/images/play_icon.gif
+176 silly gunzTarPerm modified mode [ 'test/images/play_icon.gif', 438, 420 ]
+177 silly gunzTarPerm extractEntry test/images/play_icon.png
+178 silly gunzTarPerm modified mode [ 'test/images/play_icon.png', 438, 420 ]
+179 silly gunzTarPerm extractEntry test/images/sina.png
+180 silly gunzTarPerm modified mode [ 'test/images/sina.png', 438, 420 ]
+181 silly gunzTarPerm extractEntry test/images/sina_logo.png
+182 silly gunzTarPerm modified mode [ 'test/images/sina_logo.png', 438, 420 ]
+183 silly gunzTarPerm extractEntry test/images/speaker.png
+184 silly gunzTarPerm modified mode [ 'test/images/speaker.png', 438, 420 ]
+185 silly gunzTarPerm extractEntry test/images/tips_icons.png
+186 silly gunzTarPerm modified mode [ 'test/images/tips_icons.png', 438, 420 ]
+187 silly gunzTarPerm extractEntry test/images/txweibo_logo.png
+188 silly gunzTarPerm modified mode [ 'test/images/txweibo_logo.png', 438, 420 ]
+189 silly gunzTarPerm extractEntry test/config.example.json
+190 silly gunzTarPerm modified mode [ 'test/config.example.json', 438, 420 ]
+191 silly gunzTarPerm extractEntry test/main.html
+192 silly gunzTarPerm modified mode [ 'test/main.html', 438, 420 ]
+193 silly gunzTarPerm extractEntry test/sprite2.html
+194 silly gunzTarPerm modified mode [ 'test/sprite2.html', 438, 420 ]
+195 silly gunzTarPerm extractEntry test/style.html
+196 silly gunzTarPerm modified mode [ 'test/style.html', 438, 420 ]
+197 silly gunzTarPerm extractEntry test/style2.html
+198 silly gunzTarPerm modified mode [ 'test/style2.html', 438, 420 ]
+199 silly gunzTarPerm extractEntry test/style3.html
+200 silly gunzTarPerm modified mode [ 'test/style3.html', 438, 420 ]
+201 silly gunzTarPerm extractEntry examples/animation/README.md
+202 silly gunzTarPerm modified mode [ 'examples/animation/README.md', 438, 420 ]
+203 silly gunzTarPerm extractEntry examples/animation/config.json
+204 silly gunzTarPerm modified mode [ 'examples/animation/config.json', 438, 420 ]
+205 silly gunzTarPerm extractEntry examples/animation/style2.html
+206 silly gunzTarPerm modified mode [ 'examples/animation/style2.html', 438, 420 ]
+207 silly gunzTarPerm extractEntry examples/import-css/README.md
+208 silly gunzTarPerm modified mode [ 'examples/import-css/README.md', 438, 420 ]
+209 silly gunzTarPerm extractEntry examples/import-css/config.json
+210 silly gunzTarPerm modified mode [ 'examples/import-css/config.json', 438, 420 ]
+211 silly gunzTarPerm extractEntry examples/import-css/main.html
+212 silly gunzTarPerm modified mode [ 'examples/import-css/main.html', 438, 420 ]
+213 silly gunzTarPerm extractEntry examples/include-gif/README.md
+214 silly gunzTarPerm modified mode [ 'examples/include-gif/README.md', 438, 420 ]
+215 silly gunzTarPerm extractEntry examples/include-gif/config.json
+216 silly gunzTarPerm modified mode [ 'examples/include-gif/config.json', 438, 420 ]
+217 silly gunzTarPerm extractEntry examples/include-gif/style.html
+218 silly gunzTarPerm modified mode [ 'examples/include-gif/style.html', 438, 420 ]
+219 silly gunzTarPerm extractEntry examples/limit-image-size/README.md
+220 silly gunzTarPerm modified mode [ 'examples/limit-image-size/README.md', 438, 420 ]
+221 silly gunzTarPerm extractEntry examples/limit-image-size/config.json
+222 silly gunzTarPerm modified mode [ 'examples/limit-image-size/config.json', 438, 420 ]
+223 silly gunzTarPerm extractEntry examples/limit-image-size/style.html
+224 silly gunzTarPerm modified mode [ 'examples/limit-image-size/style.html', 438, 420 ]
+225 silly gunzTarPerm extractEntry examples/multi/README.md
+226 silly gunzTarPerm modified mode [ 'examples/multi/README.md', 438, 420 ]
+227 silly gunzTarPerm extractEntry examples/multi/config.json
+228 silly gunzTarPerm modified mode [ 'examples/multi/config.json', 438, 420 ]
+229 silly gunzTarPerm extractEntry examples/multi/style.html
+230 silly gunzTarPerm modified mode [ 'examples/multi/style.html', 438, 420 ]
+231 silly gunzTarPerm extractEntry examples/multi/style2.html
+232 silly gunzTarPerm modified mode [ 'examples/multi/style2.html', 438, 420 ]
+233 silly gunzTarPerm extractEntry examples/multi/style3.html
+234 silly gunzTarPerm modified mode [ 'examples/multi/style3.html', 438, 420 ]
+235 silly gunzTarPerm extractEntry examples/multi-combine/README.md
+236 silly gunzTarPerm modified mode [ 'examples/multi-combine/README.md', 438, 420 ]
+237 silly gunzTarPerm extractEntry examples/multi-combine/combine.html
+238 silly gunzTarPerm modified mode [ 'examples/multi-combine/combine.html', 438, 420 ]
+239 silly gunzTarPerm extractEntry examples/multi-combine/config.json
+240 silly gunzTarPerm modified mode [ 'examples/multi-combine/config.json', 438, 420 ]
+241 silly gunzTarPerm extractEntry examples/single/README.md
+242 silly gunzTarPerm modified mode [ 'examples/single/README.md', 438, 420 ]
+243 silly gunzTarPerm extractEntry examples/single/config.json
+244 silly gunzTarPerm modified mode [ 'examples/single/config.json', 438, 420 ]
+245 silly gunzTarPerm extractEntry examples/single/style.html
+246 silly gunzTarPerm modified mode [ 'examples/single/style.html', 438, 420 ]
+247 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+248 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+249 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+250 silly lockFile c1eb3f9a-04344-0-3388868970796466-tmp-tgz tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\tmp.tgz
+251 verbose tar pack [ 'C:\\Users\\millerliu\\AppData\\Roaming\\npm-cache\\imweb_ispriter2\\0.3.85\\package.tgz',
+251 verbose tar pack   'C:\\Users\\MILLER~1\\AppData\\Local\\Temp\\npm-5020-aJWkca43\\1400580704344-0.3388868970796466\\package' ]
+252 verbose tarball C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+253 verbose folder C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+254 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+255 verbose lock tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package C:\Users\millerliu\AppData\Roaming\npm-cache\3ba79c9a-04344-0-3388868970796466-package.lock
+256 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+257 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\76b10d12-web-ispriter2-0-3-85-package-tgz.lock
+258 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+259 silly lockFile 3ba79c9a-04344-0-3388868970796466-package tar://C:\Users\MILLER~1\AppData\Local\Temp\npm-5020-aJWkca43\1400580704344-0.3388868970796466\package
+260 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+261 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+262 silly lockFile a7221dae-e-imweb-ispriter2-0-3-85-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
+263 verbose lock C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package C:\Users\millerliu\AppData\Roaming\npm-cache\a7221dae-e-imweb-ispriter2-0-3-85-package.lock
+264 silly lockFile a7221dae-e-imweb-ispriter2-0-3-85-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
+265 silly lockFile a7221dae-e-imweb-ispriter2-0-3-85-package C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
+266 verbose tar unpack C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+267 silly lockFile 21069c7b-e-imweb-ispriter2-0-3-85-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
+268 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package C:\Users\millerliu\AppData\Roaming\npm-cache\21069c7b-e-imweb-ispriter2-0-3-85-package.lock
+269 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+270 verbose lock tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz C:\Users\millerliu\AppData\Roaming\npm-cache\76b10d12-web-ispriter2-0-3-85-package-tgz.lock
+271 silly gunzTarPerm modes [ '755', '644' ]
+272 silly gunzTarPerm extractEntry package.json
+273 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+274 silly gunzTarPerm extractEntry .npmignore
+275 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+276 silly gunzTarPerm extractEntry README.md
+277 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+278 silly gunzTarPerm extractEntry LICENSE
+279 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+280 silly gunzTarPerm extractEntry test.js
+281 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry CONFIG.md
+283 silly gunzTarPerm modified mode [ 'CONFIG.md', 438, 420 ]
+284 silly gunzTarPerm extractEntry bin/ispriter
+285 silly gunzTarPerm modified mode [ 'bin/ispriter', 438, 420 ]
+286 silly gunzTarPerm extractEntry examples/animation/README.md
+287 silly gunzTarPerm modified mode [ 'examples/animation/README.md', 438, 420 ]
+288 silly gunzTarPerm extractEntry examples/animation/config.json
+289 silly gunzTarPerm modified mode [ 'examples/animation/config.json', 438, 420 ]
+290 silly gunzTarPerm extractEntry examples/animation/style2.html
+291 silly gunzTarPerm modified mode [ 'examples/animation/style2.html', 438, 420 ]
+292 silly gunzTarPerm extractEntry examples/import-css/README.md
+293 silly gunzTarPerm modified mode [ 'examples/import-css/README.md', 438, 420 ]
+294 silly gunzTarPerm extractEntry examples/import-css/config.json
+295 silly gunzTarPerm modified mode [ 'examples/import-css/config.json', 438, 420 ]
+296 silly gunzTarPerm extractEntry examples/import-css/main.html
+297 silly gunzTarPerm modified mode [ 'examples/import-css/main.html', 438, 420 ]
+298 silly gunzTarPerm extractEntry examples/include-gif/README.md
+299 silly gunzTarPerm modified mode [ 'examples/include-gif/README.md', 438, 420 ]
+300 silly gunzTarPerm extractEntry examples/include-gif/config.json
+301 silly gunzTarPerm modified mode [ 'examples/include-gif/config.json', 438, 420 ]
+302 silly gunzTarPerm extractEntry examples/include-gif/style.html
+303 silly gunzTarPerm modified mode [ 'examples/include-gif/style.html', 438, 420 ]
+304 silly gunzTarPerm extractEntry examples/limit-image-size/README.md
+305 silly gunzTarPerm modified mode [ 'examples/limit-image-size/README.md', 438, 420 ]
+306 silly gunzTarPerm extractEntry examples/limit-image-size/config.json
+307 silly gunzTarPerm modified mode [ 'examples/limit-image-size/config.json', 438, 420 ]
+308 silly gunzTarPerm extractEntry examples/limit-image-size/style.html
+309 silly gunzTarPerm modified mode [ 'examples/limit-image-size/style.html', 438, 420 ]
+310 silly gunzTarPerm extractEntry examples/multi/README.md
+311 silly gunzTarPerm modified mode [ 'examples/multi/README.md', 438, 420 ]
+312 silly gunzTarPerm extractEntry examples/multi/config.json
+313 silly gunzTarPerm modified mode [ 'examples/multi/config.json', 438, 420 ]
+314 silly gunzTarPerm extractEntry examples/multi/style.html
+315 silly gunzTarPerm modified mode [ 'examples/multi/style.html', 438, 420 ]
+316 silly gunzTarPerm extractEntry examples/multi/style2.html
+317 silly gunzTarPerm modified mode [ 'examples/multi/style2.html', 438, 420 ]
+318 silly gunzTarPerm extractEntry examples/multi/style3.html
+319 silly gunzTarPerm modified mode [ 'examples/multi/style3.html', 438, 420 ]
+320 silly gunzTarPerm extractEntry examples/multi-combine/README.md
+321 silly gunzTarPerm modified mode [ 'examples/multi-combine/README.md', 438, 420 ]
+322 silly gunzTarPerm extractEntry examples/multi-combine/combine.html
+323 silly gunzTarPerm modified mode [ 'examples/multi-combine/combine.html', 438, 420 ]
+324 silly gunzTarPerm extractEntry examples/multi-combine/config.json
+325 silly gunzTarPerm modified mode [ 'examples/multi-combine/config.json', 438, 420 ]
+326 silly gunzTarPerm extractEntry examples/single/README.md
+327 silly gunzTarPerm modified mode [ 'examples/single/README.md', 438, 420 ]
+328 silly gunzTarPerm extractEntry examples/single/config.json
+329 silly gunzTarPerm modified mode [ 'examples/single/config.json', 438, 420 ]
+330 silly gunzTarPerm extractEntry examples/single/style.html
+331 silly gunzTarPerm modified mode [ 'examples/single/style.html', 438, 420 ]
+332 silly gunzTarPerm extractEntry src/BackgroundInterpreter.js
+333 silly gunzTarPerm modified mode [ 'src/BackgroundInterpreter.js', 438, 420 ]
+334 silly gunzTarPerm extractEntry src/GrowingPacker.js
+335 silly gunzTarPerm modified mode [ 'src/GrowingPacker.js', 438, 420 ]
+336 silly gunzTarPerm extractEntry src/ispriter.js
+337 silly gunzTarPerm modified mode [ 'src/ispriter.js', 438, 420 ]
+338 silly gunzTarPerm extractEntry src/node-file.js
+339 silly gunzTarPerm modified mode [ 'src/node-file.js', 438, 420 ]
+340 silly gunzTarPerm extractEntry src/ztool.js
+341 silly gunzTarPerm modified mode [ 'src/ztool.js', 438, 420 ]
+342 silly gunzTarPerm extractEntry test/img/sprite/01ab253e6b8089278192b616796c5c3c.png
+343 silly gunzTarPerm modified mode [ 'test/img/sprite/01ab253e6b8089278192b616796c5c3c.png',
+343 silly gunzTarPerm   438,
+343 silly gunzTarPerm   420 ]
+344 silly gunzTarPerm extractEntry test/img/sprite/3449c9e5e332f1dbb81505cd739fbf3f.png
+345 silly gunzTarPerm modified mode [ 'test/img/sprite/3449c9e5e332f1dbb81505cd739fbf3f.png',
+345 silly gunzTarPerm   438,
+345 silly gunzTarPerm   420 ]
+346 silly gunzTarPerm extractEntry test/img/sprite/83ddf58b8c78ac8b5c8972c459c3e357.png
+347 silly gunzTarPerm modified mode [ 'test/img/sprite/83ddf58b8c78ac8b5c8972c459c3e357.png',
+347 silly gunzTarPerm   438,
+347 silly gunzTarPerm   420 ]
+348 silly gunzTarPerm extractEntry test/img/sprite/ca9c491ac66b2c62500882e93f3719a8.png
+349 silly gunzTarPerm modified mode [ 'test/img/sprite/ca9c491ac66b2c62500882e93f3719a8.png',
+349 silly gunzTarPerm   438,
+349 silly gunzTarPerm   420 ]
+350 silly gunzTarPerm extractEntry test/img/sprite/d41d8cd98f00b204e9800998ecf8427e.png
+351 silly gunzTarPerm modified mode [ 'test/img/sprite/d41d8cd98f00b204e9800998ecf8427e.png',
+351 silly gunzTarPerm   438,
+351 silly gunzTarPerm   420 ]
+352 silly gunzTarPerm extractEntry test/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png
+353 silly gunzTarPerm modified mode [ 'test/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png',
+353 silly gunzTarPerm   438,
+353 silly gunzTarPerm   420 ]
+354 silly gunzTarPerm extractEntry test/Modfile
+355 silly gunzTarPerm modified mode [ 'test/Modfile', 438, 420 ]
+356 silly gunzTarPerm extractEntry test/css/main.css
+357 silly gunzTarPerm modified mode [ 'test/css/main.css', 438, 420 ]
+358 silly gunzTarPerm extractEntry test/css/style.css
+359 silly gunzTarPerm modified mode [ 'test/css/style.css', 438, 420 ]
+360 silly gunzTarPerm extractEntry test/css/style2.css
+361 silly gunzTarPerm modified mode [ 'test/css/style2.css', 438, 420 ]
+362 silly gunzTarPerm extractEntry test/css/style3.css
+363 silly gunzTarPerm modified mode [ 'test/css/style3.css', 438, 420 ]
+364 silly gunzTarPerm extractEntry test/css/style4.css
+365 silly gunzTarPerm modified mode [ 'test/css/style4.css', 438, 420 ]
+366 silly gunzTarPerm extractEntry test/css/style_noimg.css
+367 silly gunzTarPerm modified mode [ 'test/css/style_noimg.css', 438, 420 ]
+368 silly gunzTarPerm extractEntry test/css2/f7b44cfafd5c52223d5498196c8a2e7b.png
+369 silly gunzTarPerm modified mode [ 'test/css2/f7b44cfafd5c52223d5498196c8a2e7b.png', 438, 420 ]
+370 silly gunzTarPerm extractEntry test/css2/img/f7b44cfafd5c52223d5498196c8a2e7b.png
+371 silly gunzTarPerm modified mode [ 'test/css2/img/f7b44cfafd5c52223d5498196c8a2e7b.png',
+371 silly gunzTarPerm   438,
+371 silly gunzTarPerm   420 ]
+372 silly gunzTarPerm extractEntry test/css2/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png
+373 silly gunzTarPerm modified mode [ 'test/css2/img/sprite/f7b44cfafd5c52223d5498196c8a2e7b.png',
+373 silly gunzTarPerm   438,
+373 silly gunzTarPerm   420 ]
+374 silly gunzTarPerm extractEntry test/css2/imgf7b44cfafd5c52223d5498196c8a2e7b.png
+375 silly gunzTarPerm modified mode [ 'test/css2/imgf7b44cfafd5c52223d5498196c8a2e7b.png', 438, 420 ]
+376 silly gunzTarPerm extractEntry test/css2/main.css
+377 silly gunzTarPerm modified mode [ 'test/css2/main.css', 438, 420 ]
+378 silly gunzTarPerm extractEntry test/css2/style.css
+379 silly gunzTarPerm modified mode [ 'test/css2/style.css', 438, 420 ]
+380 silly gunzTarPerm extractEntry test/css2/style2.css
+381 silly gunzTarPerm modified mode [ 'test/css2/style2.css', 438, 420 ]
+382 silly gunzTarPerm extractEntry test/css2/style3.css
+383 silly gunzTarPerm modified mode [ 'test/css2/style3.css', 438, 420 ]
+384 silly gunzTarPerm extractEntry test/css2/style4.css
+385 silly gunzTarPerm modified mode [ 'test/css2/style4.css', 438, 420 ]
+386 silly gunzTarPerm extractEntry test/css2/style_noimg.css
+387 silly gunzTarPerm modified mode [ 'test/css2/style_noimg.css', 438, 420 ]
+388 silly gunzTarPerm extractEntry test/images/file_word.png
+389 silly gunzTarPerm modified mode [ 'test/images/file_word.png', 438, 420 ]
+390 silly gunzTarPerm extractEntry test/images/add.png
+391 silly gunzTarPerm modified mode [ 'test/images/add.png', 438, 420 ]
+392 silly gunzTarPerm extractEntry test/images/appmarket.png
+393 silly gunzTarPerm modified mode [ 'test/images/appmarket.png', 438, 420 ]
+394 silly gunzTarPerm extractEntry test/images/back_click.png
+395 silly gunzTarPerm modified mode [ 'test/images/back_click.png', 438, 420 ]
+396 silly gunzTarPerm extractEntry test/images/back_hover.png
+397 silly gunzTarPerm modified mode [ 'test/images/back_hover.png', 438, 420 ]
+398 silly gunzTarPerm extractEntry test/images/badge.png
+399 silly gunzTarPerm modified mode [ 'test/images/badge.png', 438, 420 ]
+400 silly gunzTarPerm extractEntry test/images/bright-star.png
+401 silly gunzTarPerm modified mode [ 'test/images/bright-star.png', 438, 420 ]
+402 silly gunzTarPerm extractEntry test/images/close.png
+403 silly gunzTarPerm modified mode [ 'test/images/close.png', 438, 420 ]
+404 silly gunzTarPerm extractEntry test/images/close2.png
+405 silly gunzTarPerm modified mode [ 'test/images/close2.png', 438, 420 ]
+406 silly gunzTarPerm extractEntry test/images/delete-down.png
+407 silly gunzTarPerm modified mode [ 'test/images/delete-down.png', 438, 420 ]
+408 silly gunzTarPerm extractEntry test/images/diskexplorer.png
+409 silly gunzTarPerm modified mode [ 'test/images/diskexplorer.png', 438, 420 ]
+410 silly gunzTarPerm extractEntry test/images/doc.png
+411 silly gunzTarPerm modified mode [ 'test/images/doc.png', 438, 420 ]
+412 silly gunzTarPerm extractEntry test/images/doc_o.png
+413 silly gunzTarPerm modified mode [ 'test/images/doc_o.png', 438, 420 ]
+414 silly gunzTarPerm extractEntry test/images/file_default.png
+415 silly gunzTarPerm modified mode [ 'test/images/file_default.png', 438, 420 ]
+416 silly gunzTarPerm extractEntry test/images/file_excel.png
+417 silly gunzTarPerm modified mode [ 'test/images/file_excel.png', 438, 420 ]
+418 silly gunzTarPerm extractEntry test/images/file_image.png
+419 silly gunzTarPerm modified mode [ 'test/images/file_image.png', 438, 420 ]
+420 silly gunzTarPerm extractEntry test/images/file_music.png
+421 silly gunzTarPerm modified mode [ 'test/images/file_music.png', 438, 420 ]
+422 silly gunzTarPerm extractEntry test/images/file_pdf.png
+423 silly gunzTarPerm modified mode [ 'test/images/file_pdf.png', 438, 420 ]
+424 silly gunzTarPerm extractEntry test/images/file_ppt.png
+425 silly gunzTarPerm modified mode [ 'test/images/file_ppt.png', 438, 420 ]
+426 silly gunzTarPerm extractEntry test/images/file_rar.png
+427 silly gunzTarPerm modified mode [ 'test/images/file_rar.png', 438, 420 ]
+428 silly gunzTarPerm extractEntry test/images/file_txt.png
+429 silly gunzTarPerm modified mode [ 'test/images/file_txt.png', 438, 420 ]
+430 silly gunzTarPerm extractEntry test/images/file_video.png
+431 silly gunzTarPerm modified mode [ 'test/images/file_video.png', 438, 420 ]
+432 silly gunzTarPerm extractEntry test/images/app_icon.png
+433 silly gunzTarPerm modified mode [ 'test/images/app_icon.png', 438, 420 ]
+434 silly gunzTarPerm extractEntry test/images/folder.png
+435 silly gunzTarPerm modified mode [ 'test/images/folder.png', 438, 420 ]
+436 silly gunzTarPerm extractEntry test/images/folder_o.png
+437 silly gunzTarPerm modified mode [ 'test/images/folder_o.png', 438, 420 ]
+438 silly gunzTarPerm extractEntry test/images/friends.png
+439 silly gunzTarPerm modified mode [ 'test/images/friends.png', 438, 420 ]
+440 silly gunzTarPerm extractEntry test/images/game.png
+441 silly gunzTarPerm modified mode [ 'test/images/game.png', 438, 420 ]
+442 silly gunzTarPerm extractEntry test/images/game_o.png
+443 silly gunzTarPerm modified mode [ 'test/images/game_o.png', 438, 420 ]
+444 silly gunzTarPerm extractEntry test/images/gray-star.png
+445 silly gunzTarPerm modified mode [ 'test/images/gray-star.png', 438, 420 ]
+446 silly gunzTarPerm extractEntry test/images/info.png
+447 silly gunzTarPerm modified mode [ 'test/images/info.png', 438, 420 ]
+448 silly gunzTarPerm extractEntry test/images/level_0.png
+449 silly gunzTarPerm modified mode [ 'test/images/level_0.png', 438, 420 ]
+450 silly gunzTarPerm extractEntry test/images/level_1.png
+451 silly gunzTarPerm modified mode [ 'test/images/level_1.png', 438, 420 ]
+452 silly gunzTarPerm extractEntry test/images/level_2.png
+453 silly gunzTarPerm modified mode [ 'test/images/level_2.png', 438, 420 ]
+454 silly gunzTarPerm extractEntry test/images/level_3.png
+455 silly gunzTarPerm modified mode [ 'test/images/level_3.png', 438, 420 ]
+456 silly gunzTarPerm extractEntry test/images/level_4.png
+457 silly gunzTarPerm modified mode [ 'test/images/level_4.png', 438, 420 ]
+458 silly gunzTarPerm extractEntry test/images/level_5.png
+459 silly gunzTarPerm modified mode [ 'test/images/level_5.png', 438, 420 ]
+460 silly gunzTarPerm extractEntry test/images/loading.png
+461 silly gunzTarPerm modified mode [ 'test/images/loading.png', 438, 420 ]
+462 silly gunzTarPerm extractEntry test/images/open.png
+463 silly gunzTarPerm modified mode [ 'test/images/open.png', 438, 420 ]
+464 silly gunzTarPerm extractEntry test/images/play_icon.gif
+465 silly gunzTarPerm modified mode [ 'test/images/play_icon.gif', 438, 420 ]
+466 silly gunzTarPerm extractEntry test/images/play_icon.png
+467 silly gunzTarPerm modified mode [ 'test/images/play_icon.png', 438, 420 ]
+468 silly gunzTarPerm extractEntry test/images/sina.png
+469 silly gunzTarPerm modified mode [ 'test/images/sina.png', 438, 420 ]
+470 silly gunzTarPerm extractEntry test/images/sina_logo.png
+471 silly gunzTarPerm modified mode [ 'test/images/sina_logo.png', 438, 420 ]
+472 silly gunzTarPerm extractEntry test/images/speaker.png
+473 silly gunzTarPerm modified mode [ 'test/images/speaker.png', 438, 420 ]
+474 silly gunzTarPerm extractEntry test/images/tips_icons.png
+475 silly gunzTarPerm modified mode [ 'test/images/tips_icons.png', 438, 420 ]
+476 silly gunzTarPerm extractEntry test/images/txweibo_logo.png
+477 silly gunzTarPerm modified mode [ 'test/images/txweibo_logo.png', 438, 420 ]
+478 silly gunzTarPerm extractEntry test/config.example.json
+479 silly gunzTarPerm modified mode [ 'test/config.example.json', 438, 420 ]
+480 silly gunzTarPerm extractEntry test/main.html
+481 silly gunzTarPerm modified mode [ 'test/main.html', 438, 420 ]
+482 silly gunzTarPerm extractEntry test/sprite2.html
+483 silly gunzTarPerm modified mode [ 'test/sprite2.html', 438, 420 ]
+484 silly gunzTarPerm extractEntry test/style.html
+485 silly gunzTarPerm modified mode [ 'test/style.html', 438, 420 ]
+486 silly gunzTarPerm extractEntry test/style2.html
+487 silly gunzTarPerm modified mode [ 'test/style2.html', 438, 420 ]
+488 silly gunzTarPerm extractEntry test/style3.html
+489 silly gunzTarPerm modified mode [ 'test/style3.html', 438, 420 ]
+490 silly lockFile 21069c7b-e-imweb-ispriter2-0-3-85-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
+491 silly lockFile 21069c7b-e-imweb-ispriter2-0-3-85-package tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package
+492 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+493 silly lockFile 76b10d12-web-ispriter2-0-3-85-package-tgz tar://C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+494 verbose chmod C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz 644
+495 silly chown skipping for windows C:\Users\millerliu\AppData\Roaming\npm-cache\imweb_ispriter2\0.3.85\package.tgz
+496 silly lockFile 3a52ce78- .
+497 silly lockFile 3a52ce78- .
+498 silly publish { author:
+498 silly publish    { name: 'azrael millerliu 增加图片 md5能力',
+498 silly publish      email: 'azrael@imatlas.com',
+498 silly publish      url: 'http://imatlas.com/about' },
+498 silly publish   name: 'imweb_ispriter2',
+498 silly publish   description: 'an intelligent merge sprite tool',
+498 silly publish   version: '0.3.85',
+498 silly publish   homepage: 'http://imatlas.com/posts/ispriter-update/',
+498 silly publish   repository: { type: 'git', url: 'git://github.com/iazrael/ispriter.git' },
+498 silly publish   main: './src/ispriter.js',
+498 silly publish   readme: '#智能合并CSS精灵图(iSpriter)\n\n什么是智能?\n=========\n\n编写 css 文件时什么都不用管, 该用什么图片用什么图片, 该怎么定位就怎么定位, 不用改变原有的 css 编写方式\n\n发布前执行 ispriter, 所有合并图片和定位都自动帮你完成\n\n站在巨人的肩膀上\n================\n\n使用nodejs实现, 依赖[CSSOM](https://github.com/NV/CSSOM), [node-pngjs](https://github.com/niegowski/node-pngjs)\n\n使用 [bin-packing](https://github.com/jakesgordon/bin-packing) 算法排列图片, 后续支持选择其他算法\n\n在此, 感谢这些开源项目的作者, 以及给本项目贡献代码的同学\n\n\n特性\n====\n\n+ 智能提取 background 的 url 和 position 等信息\n+ 智能设置被合并图片的宽高\n+ 智能判断使用了 background-position（使用px为单位）定位的图片并重新定位\n+ 支持已经合并了的精灵图再次合并和定位\n+ 支持图片去重\n+ 支持限制合并后图片的大小\n+ 支持设置合并后的图片间距\n+ 支持将所有图片合并为一张, 同时所有 CSS 文件合并为一个文件 【新】\n+ 支持读取 @import 的样式表进行处理 【新】\n+ 支持将所有合并了图片的 CSS 统一输出, 减少代码量 【新】\n+ 支持对输出的 CSS 进行压缩(使用 clean-css)【新】\n+ 支持排除不需要合并的图片（在 url 后面添加 #unsprite 或者使用 config 文件来配置）【新】\n+ 跳过 background-position 是 right/center/bottom 的图片\n+ 跳过显式的设置平铺方式为 repreat 的图片\n+ 跳过设置了 background-size 的图片\n\n使用方法\n=======\n\nconfig 的详细参数说明见[CONFIG](./CONFIG.md)\n\n### config 文件的配置参数\n\n    {\n\n        "input": {\n\n            /**\n             * 原 cssRoot\n             */\n            "cssSource": ["./css/style*.css"]\n        },\n        "output": {\n\n            /**\n             * 原 cssRoot\n             */\n            "cssDist": "./sprite/css/",\n\n            /**\n             * 原 imageRoot\n             */\n            "imageDist": "./img/",\n\n            /**\n             * 原 maxSize\n             */\n            "maxSingleSize": 60,\n            \n            "margin": 3\n        }\n    }\n\n### config 的最简配置\n\n    {\n        "input":  "./../test/css/", // input cssSource\n        "output": "./../test/sprite_output/css/" // output cssDist\n    }\n\n### 从代码中调用\n\n    var spriter = require(\'ispriter\');\n\n    spriter.merge(\'../src/config.example.json\');\n\n    or \n\n    spriter.merge([\'./css/style.css\', \'./css/style2.css\']);\n\n    or\n\n    spriter.merge({\n        "input":  "./../test/css/",\n        "output": "./../test/sprite_output/css/"\n    });\n\n### 从命令行调用\n    \n    npm install ispriter -g\n\n    cd ./test\n\n    ispriter -c config.example.json\n    \n    or\n\n    ispriter -f style.css, style2.css ...\n\n### 从 [Mod](https://github.com/modulejs/modjs) 中调用\n\n    // Modfile\n    module.exports = {\n        plugins: {\n            sprite: "ispriter"\n        },\n        tasks: {\n            sprite: {\n                page1: {\n                    "input":  "./../test/css/", // input cssSource\n                    "output": "./../test/sprite_output/css/" // output cssDist\n                },\n                page2: {\n                    // 涉及对象类型参数需配置在options中\n                    options: {\n\n                        "input": {\n                            "cssSource": ["./css/style*.css"]\n                        },\n                        "output": {\n                            "cssDist": "./sprite/css/",\n                            "imageDist": "./img/",\n                            "maxSingleSize": 60,\n                            "margin": 5\n                        }\n                    }\n                }\n            }\n        }\n    }\n\n### 排除不需要合并的图片\n只要在写样式的时候, 在 background-image 的图片url加上 #unsprite 即可, 例如:\n    \n    background: url(../images/loading.png#unsprite);\n\n    background: url(../images/loading.png?t=123#unsprite);\n\n    background: url(../images/loading.png#hash#unsprite);\n\n也可以在 config 中指定 ignoreImages 来实现, 所有匹配上的图片都不会合并, 可以使用通配符, 例如: \n\n    "ignoreImages": "icons/*"\n    \n    "ignoreImages": ["icons/*", "loading.png"]\n\nExample\n=======\n\n具体实例请查看 examples 目录下的 demo, 进入具体目录, 执行\n\n    ispriter -c config.json \n体验实际效果\n\nLicense\n=======\n\n[MIT](./LICENSE)\n',
+498 silly publish   readmeFilename: 'README.md',
+498 silly publish   bugs: { url: 'https://github.com/iazrael/ispriter/issues' },
+498 silly publish   devDependencies: {},
+498 silly publish   _id: 'imweb_ispriter2@0.3.85',
+498 silly publish   _from: '.',
+498 silly publish   dependencies:
+498 silly publish    { MD5: '^1.2.1',
+498 silly publish      cssom: '^0.3.0',
+498 silly publish      pngjs: '^0.4.0',
+498 silly publish      eventproxy: '^0.3.1',
+498 silly publish      underscore: '^1.6.0',
+498 silly publish      commander: '^2.2.0',
+498 silly publish      'clean-css': '^2.1.8' },
+498 silly publish   dist: { shasum: '44055bbeb6afdb4fa3410b426cb753073528b746' } }
+499 verbose url raw imweb_ispriter2
+500 verbose url resolving [ 'http://npm.oa.com/', './imweb_ispriter2' ]
+501 verbose url resolved http://npm.oa.com/imweb_ispriter2
+502 info trying registry request attempt 1 at 18:11:45
+503 http PUT http://npm.oa.com/imweb_ispriter2
+504 http 403 http://npm.oa.com/imweb_ispriter2
+505 error publish Failed PUT 403
+506 error Error: forbidden cannot modify pre-existing version: 0.3.85
+506 error old={"author":{"name":"azrael millerliu 增加图片 md5能力","email":"azrael@imatlas.com","url":"http://imatlas.com/about"},"name":"imweb_ispriter2","description":"an intelligent merge sprite tool","version":"0.3.85","homepage":"http://imatlas.com/posts/ispriter-update/","repository":{"type":"git","url":"git://github.com/iazrael/ispriter.git"},"main":"./src/ispriter.js","bugs":{"url":"https://github.com/iazrael/ispriter/issues"},"devDependencies":{},"_id":"imweb_ispriter2@0.3.85","_from":".","dependencies":{"MD5":"^1.2.1","cssom":"^0.3.0","pngjs":"^0.4.0","eventproxy":"^0.3.1","underscore":"^1.6.0","commander":"^2.2.0","clean-css":"^2.1.8"},"dist":{"shasum":"1854f768074d0d9e2b4828cb2f7940c82468f9fe","tarball":"http://npm.oa.com/imweb_ispriter2/-/imweb_ispriter2-0.3.85.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"millerliu","email":"ldjbox@126.com"},"maintainers":[{"name":"millerliu","email":"ldjbox@126.com"}]}
+506 error new={"author":{"name":"azrael millerliu 增加图片 md5能力","email":"azrael@imatlas.com","url":"http://imatlas.com/about"},"name":"imweb_ispriter2","description":"an intelligent merge sprite tool","version":"0.3.85","homepage":"http://imatlas.com/posts/ispriter-update/","repository":{"type":"git","url":"git://github.com/iazrael/ispriter.git"},"main":"./src/ispriter.js","readme":"#智能合并CSS精灵图(iSpriter)\u000a\u000a什么是智能?\u000a=========\u000a\u000a编写 css 文件时什么都不用管, 该用什么图片用什么图片, 该怎么定位就怎么定位, 不用改变原有的 css 编写方式\u000a\u000a发布前执行 ispriter, 所有合并图片和定位都自动帮你完成\u000a\u000a站在巨人的肩膀上\u000a================\u000a\u000a使用nodejs实现, 依赖[CSSOM](https://github.com/NV/CSSOM), [node-pngjs](https://github.com/niegowski/node-pngjs)\u000a\u000a使用 [bin-packing](https://github.com/jakesgordon/bin-packing) 算法排列图片, 后续支持选择其他算法\u000a\u000a在此, 感谢这些开源项目的作者, 以及给本项目贡献代码的同学\u000a\u000a\u000a特性\u000a====\u000a\u000a+ 智能提取 background 的 url 和 position 等信息\u000a+ 智能设置被合并图片的宽高\u000a+ 智能判断使用了 background-position（使用px为单位）定位的图片并重新定位\u000a+ 支持已经合并了的精灵图再次合并和定位\u000a+ 支持图片去重\u000a+ 支持限制合并后图片的大小\u000a+ 支持设置合并后的图片间距\u000a+ 支持将所有图片合并为一张, 同时所有 CSS 文件合并为一个文件 【新】\u000a+ 支持读取 @import 的样式表进行处理 【新】\u000a+ 支持将所有合并了图片的 CSS 统一输出, 减少代码量 【新】\u000a+ 支持对输出的 CSS 进行压缩(使用 clean-css)【新】\u000a+ 支持排除不需要合并的图片（在 url 后面添加 #unsprite 或者使用 config 文件来配置）【新】\u000a+ 跳过 background-position 是 right/center/bottom 的图片\u000a+ 跳过显式的设置平铺方式为 repreat 的图片\u000a+ 跳过设置了 background-size 的图片\u000a\u000a使用方法\u000a=======\u000a\u000aconfig 的详细参数说明见[CONFIG](./CONFIG.md)\u000a\u000a### config 文件的配置参数\u000a\u000a    {\u000a\u000a        \"input\": {\u000a\u000a            /**\u000a             * 原 cssRoot\u000a             */\u000a            \"cssSource\": [\"./css/style*.css\"]\u000a        },\u000a        \"output\": {\u000a\u000a            /**\u000a             * 原 cssRoot\u000a             */\u000a            \"cssDist\": \"./sprite/css/\",\u000a\u000a            /**\u000a             * 原 imageRoot\u000a             */\u000a            \"imageDist\": \"./img/\",\u000a\u000a            /**\u000a             * 原 maxSize\u000a             */\u000a            \"maxSingleSize\": 60,\u000a            \u000a            \"margin\": 3\u000a        }\u000a    }\u000a\u000a### config 的最简配置\u000a\u000a    {\u000a        \"input\":  \"./../test/css/\", // input cssSource\u000a        \"output\": \"./../test/sprite_output/css/\" // output cssDist\u000a    }\u000a\u000a### 从代码中调用\u000a\u000a    var spriter = require('ispriter');\u000a\u000a    spriter.merge('../src/config.example.json');\u000a\u000a    or \u000a\u000a    spriter.merge(['./css/style.css', './css/style2.css']);\u000a\u000a    or\u000a\u000a    spriter.merge({\u000a        \"input\":  \"./../test/css/\",\u000a        \"output\": \"./../test/sprite_output/css/\"\u000a    });\u000a\u000a### 从命令行调用\u000a    \u000a    npm install ispriter -g\u000a\u000a    cd ./test\u000a\u000a    ispriter -c config.example.json\u000a    \u000a    or\u000a\u000a    ispriter -f style.css, style2.css ...\u000a\u000a### 从 [Mod](https://github.com/modulejs/modjs) 中调用\u000a\u000a    // Modfile\u000a    module.exports = {\u000a        plugins: {\u000a            sprite: \"ispriter\"\u000a        },\u000a        tasks: {\u000a            sprite: {\u000a                page1: {\u000a                    \"input\":  \"./../test/css/\", // input cssSource\u000a                    \"output\": \"./../test/sprite_output/css/\" // output cssDist\u000a                },\u000a                page2: {\u000a                    // 涉及对象类型参数需配置在options中\u000a                    options: {\u000a\u000a                        \"input\": {\u000a                            \"cssSource\": [\"./css/style*.css\"]\u000a                        },\u000a                        \"output\": {\u000a                            \"cssDist\": \"./sprite/css/\",\u000a                            \"imageDist\": \"./img/\",\u000a                            \"maxSingleSize\": 60,\u000a                            \"margin\": 5\u000a                        }\u000a                    }\u000a                }\u000a            }\u000a        }\u000a    }\u000a\u000a### 排除不需要合并的图片\u000a只要在写样式的时候, 在 background-image 的图片url加上 #unsprite 即可, 例如:\u000a    \u000a    background: url(../images/loading.png#unsprite);\u000a\u000a    background: url(../images/loading.png?t=123#unsprite);\u000a\u000a    background: url(../images/loading.png#hash#unsprite);\u000a\u000a也可以在 config 中指定 ignoreImages 来实现, 所有匹配上的图片都不会合并, 可以使用通配符, 例如: \u000a\u000a    \"ignoreImages\": \"icons/*\"\u000a    \u000a    \"ignoreImages\": [\"icons/*\", \"loading.png\"]\u000a\u000aExample\u000a=======\u000a\u000a具体实例请查看 examples 目录下的 demo, 进入具体目录, 执行\u000a\u000a    ispriter -c config.json \u000a体验实际效果\u000a\u000aLicense\u000a=======\u000a\u000a[MIT](./LICENSE)\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/iazrael/ispriter/issues"},"devDependencies":{},"_id":"imweb_ispriter2@0.3.85","_from":".","dependencies":{"MD5":"^1.2.1","cssom":"^0.3.0","pngjs":"^0.4.0","eventproxy":"^0.3.1","underscore":"^1.6.0","commander":"^2.2.0","clean-css":"^2.1.8"},"dist":{"shasum":"44055bbeb6afdb4fa3410b426cb753073528b746","tarball":"http://npm.oa.com/imweb_ispriter2/-/imweb_ispriter2-0.3.85.tgz"},"_npmVersion":"1.4.3","_npmUser":{"name":"millerliu","email":"ldjbox@126.com"},"maintainers":[{"name":"millerliu","email":"ldjbox@126.com"}]}: imweb_ispriter2
+506 error     at RegClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:237:14)
+506 error     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+506 error     at Request.EventEmitter.emit (events.js:98:17)
+506 error     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+506 error     at Request.EventEmitter.emit (events.js:117:20)
+506 error     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+506 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+506 error     at _stream_readable.js:920:16
+506 error     at process._tickCallback (node.js:415:13)
+507 error If you need help, you may report this *entire* log,
+507 error including the npm and node versions, at:
+507 error     <http://github.com/npm/npm/issues>
+508 error System Windows_NT 6.1.7601
+509 error command "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+510 error cwd F:\github\imweb_ispriter2
+511 error node -v v0.10.26
+512 error npm -v 1.4.3
+513 verbose exit [ 1, true ]
