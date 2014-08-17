@@ -1,13 +1,14 @@
 var ispriter=require("./src/ispriter");
 
-console.log(ispriter);
+//console.log(ispriter);
 
 var conf={
         "input":  "./test/css/main.css", // input cssSource
         "output": "./test/sprite_output/css/" // output cssDist
     };
 var conf={
-
+		"replace00":false,
+		//"md5len":32,
         "input": {
 
             /**
@@ -20,23 +21,24 @@ var conf={
             /**
              * 原 cssRoot
              */
-            "cssDist": "./test/css2/",
+            "cssDist": ["./test/css2/"],
 
             /**
              * 原 imageRoot
              */
-            "imageDist": "../img/sprite/",
+            "imageDist": "./sprite/",
 
             /**
              * 原 maxSize
              */
-            "maxSingleSize": 60,
+            "maxSingleSize": 160,
+			"prefix":"",
             
             "margin": 3
         }
     }
-
-ispriter.merge(conf);
+//console.log(ispriter);
+ispriter(conf);
 
 //78e731027d8fd50ed642340b7c9a63b3
 //f7b44cfafd5c52223d5498196c8a2e7b
